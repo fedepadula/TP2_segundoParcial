@@ -19,4 +19,8 @@ console.log(aPagos.map(x => ({id : x.id, importe : (x.importe * 1.3), cliente : 
 
 import fs from 'fs'
 
+const datos = fs.readFileSync( './datos.txt', 'utf-8' )
+
+console.log(datos)
+
 fs.appendFileSync( './datos.txt' , "primer dato" )
