@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "segundoparcial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/segundoParcial.js",
+    "dev": "nodemon src/segundoParcial.js",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedepadula/TP2_segundoParcial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedepadula/TP2_segundoParcial/issues"
+  },
+  "homepage": "https://github.com/fedepadula/TP2_segundoParcial#readme"
+}
